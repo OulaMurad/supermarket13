@@ -1,10 +1,4 @@
 <h2>Hi <%= user.name %> </h2>
-
-<img class="cart" src="images/cart1.jpg">
-<span class='badge badge-warning' id='lblCartCount' value="">5
-
-</span>
-
 <%- include('_layouts/header')  -%>
 
 <h1>Welcome to the Store!</h1>
@@ -17,8 +11,7 @@
                 <br>
                 <div class="card">
                     <img src="images/carrots.jpg" alt="carrots">
-                      <p class="price">$2.99</p>
-                      <p><button>Add to Cart</button></p>
+                      <p class="price">$2.99 for each 40¢</p>
                     
                 </div>
                 <p></p>
@@ -26,15 +19,6 @@
                   <div class="row">
                      <div class="col-sm-4"></div>
                      <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm1" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
                      </div>
                      <div class="col-sm-4"></div>
                  </div>
@@ -43,94 +27,57 @@
                 				
                 <div class="card">
                     <img src="images/lemon.jpg" alt="lemon">
-                      <p class="price">$3.99</p>
-                      <p><button>Add to Cart</button></p>
+                    <p class="price">$3.99 for each 50¢</p>
                 </div>
               
                 <div class="input2">
                   <div class="row">
                      <div class="col-sm-4"></div>
                      <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm1" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
                      </div>
                      <a href="/order"><figcaption class="fgaside1">lemon</figcaption></a>
                      <div class="col-sm-4"></div>
                  </div>
                 <div class="card">
-                    <img src="images/onion.jpg" alt="onion">
-                      <p class="price">$0.99</p>
-                      <p><button>Add to Cart</button></p>
+                    <img src="images/apple.jpg" alt="apple">
+                    <p class="price">$4.99 for each 60¢</p>
                 </div>
                 
                 <div class="input2">
                   <div class="row">
                      <div class="col-sm-4"></div>
                      <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm1" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
+
                      </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">onion </figcaption></a>
+                     <a href="/order"><figcaption class="fgaside1">apple </figcaption></a>
                      <div class="col-sm-4"></div>
                  </div>
                 <div class="card">
                     <img src="images/whitepotato.jpg" alt="whitepotato">
-                      <p class="price">$3.99</p>
-                      <p><button>Add to Cart</button></p>
+                    <p class="price">$5.99 for each 70¢</p>
                 </div>
                
                 <div class="input2">
                   <div class="row">
                      <div class="col-sm-4"></div>
                      <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm1" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
+                      
                      </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">whitepotato </figcaption></a>
+                     <a href="/order"><figcaption class="fgaside1">whitepotato </figcaption></a>
                      <div class="col-sm-4"></div>
                  </div>
                 <div class="card">
-                    <img src="images/redpotato.jpg" alt="redpotato">
-                      <p class="price">$3.99</p>
-                      <p><button>Add to Cart</button></p>
+                    <img src="images/melon.jpg" alt="melon">
+                    <p class="price">$6.99 for each 80¢</p>
                 </div>
                 
                 <div class="input2">
                   <div class="row">
                      <div class="col-sm-4"></div>
                      <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm1" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
+                    
                      </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">redpotato </figcaption></a>
+                     <a href="/order"><figcaption class="fgaside1">melon </figcaption></a>
                      <div class="col-sm-4"></div>
                  </div>
         </div>
@@ -140,347 +87,65 @@
         <aside>
         <article class="aside1">
                 <br>
-            
-                <div class="card1">
-                    <img src="images/pumpkin.jpg" alt="pumpkin">
-                      <p class="price1">$2.99</p>
-                      <p><button>Add to Cart</button></p>
-                </div>
-              
-                <div class="input1">
-                  <div class="row">
-                     <div class="col-sm-4"></div>
-                     <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>	
-                         
-                         <a href="/order"><figcaption class="fgaside1">pumpkin</figcaption></a>
-
-                <div class="card1">
-                    <img src="images/letuce.jpg" alt="lettuce">
-                      <p class="price1">$3.99</p>
-                      <p><button>Add to Cart</button></p>
-                </div>
-               
-                <div class="input1">
-                  <div class="row">
-                     <div class="col-sm-4"></div>
-                     <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
-
-                         <a href="/order"><figcaption class="fgaside1">lettuce</figcaption></a>
-
-                <div class="card1">
-                    <img src="images/tomato.jpg" alt="tomato">
-                      <p class="price1">$0.99</p>
-                      <p><button>Add to Cart</button></p>
-                </div>
-                
-                <div class="input1">
-                  <div class="row">
-                     <div class="col-sm-4"></div>
-                     <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
-
-                         <a href="/contactUs"><figcaption class="fgaside1">tomato </figcaption></a>
-
-                <div class="card1">
-                    <img src="images/coriandor.jpg" alt="coriandor">
-                      <p class="price1">$3.99</p>
-                      <p><button>Add to Cart</button></p>
-                </div>
-               
-                <div class="input1">
-                  <div class="row">
-                     <div class="col-sm-4"></div>
-                     <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
-                         <a href="/contactUs"><figcaption class="fgaside1">coriandor </figcaption></a>
-
-                <div class="card1">
-                    <img src="images/parsley.jpg" alt="parsley">
-                      <p class="price1">$3.99</p>
-                      <p><button>Add to Cart</button></p>
-                </div>
-               
-                <div class="input1">
-                  <div class="row">
-                     <div class="col-sm-4"></div>
-                     <div class="col-sm-4 col-sm-offset-4">
-                         <div class="input-group mb-3">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                             <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                             <div class="input-group-prepend">
-                               
-                             </div>
-                         </div>
-                         <a href="/contactUs"><figcaption class="fgaside1">parsley </figcaption></a>
-            </article>
-        </aside>
-        <aside>
-        <article class="aside2">
-        
-        
-            <br>
-               
-            
-            <div class="card1">
-                <img src="images/asparagus.jpg" alt="asparagus">
-                  <p class="price1">$2.99</p>
-                  <p><button>Add to Cart</button></p>
-            </div>
-            
-            <div class="input1">
-              <div class="row">
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>  
-                     
-                     <a href="/order"><figcaption class="fgaside1">asparagus</figcaption></a>
-
-            <div class="card1">
-                <img src="images/greenpapper.jpg" alt="greenpapper">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
-            </div>
-   
-            <div class="input1">
-              <div class="row">
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/order"><figcaption class="fgaside1">greenpapper</figcaption></a>
-
-            <div class="card1">
-                <img src="images/cherrytomato.jpg" alt="cherrytomato">
-                  <p class="price1">$0.99</p>
-                  <p><button>Add to Cart</button></p>
-            </div>
-          
-            <div class="input1">
-              <div class="row">
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/contactUs"><figcaption class="fgaside1">cherrytomato </figcaption></a>
-
-            <div class="card1">
-                <img src="images/lime.jpg" alt="lime">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
-            </div>
-           
-            <div class="input1">
-              <div class="row">
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div> 
-
-                     <a href="/contactUs"><figcaption class="fgaside1">lime </figcaption></a>
-
-            <div class="card1">
-                <img src="images/cabage.jpg" alt="cabage">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
-            </div>
-           
-            <div class="input1">
-              <div class="row">
-                 <div class="col-sm-4"></div>
-                 <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/contactUs"><figcaption class="fgaside1">cabage </figcaption></a>
-
-        </br>
-        </article>
-        <article class="aside3">
-        
-        
-            <br>
-           
             <div class="card2">
                 <img src="images/redpepper.jpg" alt="redpepper">
-                  <p class="price2">$2.99</p>
-                  <p><button>Add to Cart</button></p>
+                <p class="price2">$4.99 for each 60¢</p>
             </div>
             
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
+                   
                      <a href="/order"><figcaption class="fgaside1">redpepper</figcaption></a>
 
             <div class="card2">
                 <img src="images/yellowpepper.jpg" alt="yellowpepper">
-                  <p class="price2">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <p class="price2">$5.99 for each 70¢</p>
             </div>
       
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
+   
                      <a href="/order"><figcaption class="fgaside1">yellowpepper</figcaption></a>
 
             <div class="card2">
-                <img src="images/radish.jpg" alt="radish">
-                  <p class="price2">$0.99</p>
-                  <p><button>Add to Cart</button></p>
+                <img src="images/kiwi.jpg" alt="kiwi">
+                <p class="price2">$3.99 for each 50¢</p>
             </div>
           
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/contactUs"><figcaption class="fgaside1">radish </figcaption></a>
+   
+                     <a href="/order"><figcaption class="fgaside1">kiwi </figcaption></a>
 
             <div class="card2">
                 <img src="images/faltcabage.jpg" alt="faltcabage">
-                  <p class="price2">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <p class="price2">$3.99 for each 50¢</p>
             </div>
            
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">flatcabage </figcaption></a>
+              
+                     <a href="/order"><figcaption class="fgaside1">flatcabage </figcaption></a>
 
             <div class="card2">
-                <img src="images/redcabage.jpg" alt="redcabage">
-                  <p class="price2">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <img src="images/orange.jpg" alt="orange">
+                <p class="price2">$4.99 for each 60¢</p>
             </div>
           
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/contactUs"><figcaption class="fgaside1">redcabage </figcaption></a>
+           
+                     <a href="/order"><figcaption class="fgaside1">orange </figcaption></a>
 
         </br>
         </article>
@@ -491,112 +156,64 @@
             <br>
               
             <div class="card1">
-                <img src="images/zucchini.jpg" alt="zucchini">
-                  <p class="price1">$2.99</p>
-                  <p><button>Add to Cart</button></p>
+                <img src="images/banana.jpg" alt="banana">
+                <p class="price1">$5.99 for each 70¢</p>
             </div>
           
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/order"><figcaption class="fgaside1">zucchini</figcaption></a>
+  
+                     <a href="/order"><figcaption class="fgaside1">banana</figcaption></a>
                             
             <div class="card1">
                 <img src="images/eggplant.jpg" alt="eggplant">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <p class="price1">$7.99 for each 90¢</p>
             </div>
          
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
+    
                      <a href="/order"><figcaption class="fgaside1">eggplant</figcaption></a>
 
             <div class="card1">
-                <img src="images/greenbeans.jpg" alt="greenbeans">
-                  <p class="price1">$0.99</p>
-                  <p><button>Add to Cart</button></p>
+                <img src="images/mango.jpg" alt="mango">
+                <p class="price1">$3.99 for each 40¢</p>
             </div>
      
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">greenbeans </figcaption></a>
+                  
+                     <a href="/order"><figcaption class="fgaside1">mango </figcaption></a>
 
             <div class="card1">
                 <img src="images/whitecarrot.jpg" alt="whitecarrot">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <p class="price1">$6.99 for each 50¢</p>
             </div>
             
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-                     <a href="/contactUs"><figcaption class="fgaside1">whitecarrot </figcaption></a>
+                   
+                     <a href="/order"><figcaption class="fgaside1">whitecarrot </figcaption></a>
 
             <div class="card1">
-                <img src="images/mint.jpg" alt="mint">
-                  <p class="price1">$3.99</p>
-                  <p><button>Add to Cart</button></p>
+                <img src="images/pomegranate.jpg" alt="pomegranate">
+                <p class="price1">$.99 for each 99¢</p>
             </div>
         
             <div class="input1">
               <div class="row">
                  <div class="col-sm-4"></div>
                  <div class="col-sm-4 col-sm-offset-4">
-                     <div class="input-group mb-3">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                         <input type="number" id="qty_input" class="form-control form-control-sm" value="0" min="0">
-                         <div class="input-group-prepend">
-                           
-                         </div>
-                     </div>
-
-                     <a href="/contactUs"><figcaption class="fgaside1">mint </figcaption></a>
+   
+                     <a href="/order"><figcaption class="fgaside1">pomegranate </figcaption></a>
         </br>
         </article>
         </aside>
